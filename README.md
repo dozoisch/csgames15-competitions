@@ -1,4 +1,4 @@
-# [CSGames][csgames] Competitions Packages
+# [CSGames][csgames] Competitions Package
 
 > The Computer Science Games are a collegiate competition that includes challenges from all aspects of computing.
 
@@ -12,21 +12,21 @@ Pending approval means that it's still unknown if it is going to be open-sourced
 
 ### Sponsor Comp
 
-- **Radialpoint - Relay Programming**
-- **Orckestra - Software Engineering**
+- **Radialpoint - Relay Programming** *(pending approval)*
+- **Orckestra - Software Engineering** *(pending approval)*
 
 ### Technical
 
 - **Artificial Intelligence** *(soon)*
 - **Machine Learning** *(soon)*
-- **TCS** *(soon)*
+- [**Theoritical Computer Science**][tcs]
 - [**Web**][web]
-- **XP** Due to the format of the competitions, it'll stay private
+- **XP** Due to the format of the competition, it'll stay private
 - **Operating System** *(pending approval)*
 - [**Parallel Computing**][parallel]
 - **Embedded Systems** *(pending approval)*
 - [**Database**][db]
-- **Secret** The virtual machine in this competitions could not be open-sourced.
+- **Secret** The virtual machine in this competition could not be open-sourced.
 
 ### Fun
 
@@ -35,7 +35,7 @@ Pending approval means that it's still unknown if it is going to be open-sourced
   - Volleyball
 - **Scavenger Hunt** *(soon)*
 - **Gaming**
-  - *New:* Dark Souls2
+  - *New:* Dark Souls 2
   - *Retro:* Contra, Castlevania, Mike Tyson Punch Out
 
 ###Puzzles
@@ -44,9 +44,10 @@ Pending approval means that it's still unknown if it is going to be open-sourced
 
 ---
 
-*v0.0.2*
+*v0.0.3*
 
 [csgames]: http://csgames.org/
 [web]: ./web
+[tcs]: ./tcs
 [parallel]: https://github.com/faouellet/CSGames2015-Parallelism
 [db]: https://github.com/ebelair/CSG15-DB
