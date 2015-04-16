@@ -12,7 +12,7 @@ Pending approval means that it's still unknown if it is going to be open-sourced
 
 ### Sponsor Comp
 
-- **Radialpoint - Relay Programming** *(pending approval)*
+- [**Radialpoint - Relay Programming**][relay]
 - **Orckestra - Software Engineering** *(pending approval)*
 
 ### Technical
@@ -38,16 +38,17 @@ Pending approval means that it's still unknown if it is going to be open-sourced
   - *New:* Dark Souls 2
   - *Retro:* Contra, Castlevania, Mike Tyson Punch Out
 
-###Puzzles
+### Puzzles
 
 - Part of the puzzles should be released soon.
 
 ---
 
-*v0.0.3*
+*v0.0.4*
 
 [csgames]: http://csgames.org/
 [web]: ./web
+[relay]: ./radialpoint_relay_programming
 [tcs]: ./tcs
 [parallel]: https://github.com/faouellet/CSGames2015-Parallelism
 [db]: https://github.com/ebelair/CSG15-DB
