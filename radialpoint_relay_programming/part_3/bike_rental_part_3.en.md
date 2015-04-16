@@ -27,87 +27,87 @@ In this scenario, each line is a step to execute by the test framework.  The `Gi
 0. (5%) Create a **readme** file that includes a clear explanation of how to run your command line program written in **your preferred programming language**.  You program must take as a parameter a path to a scenario file.
 
 0. (5%) Display the scenario name that is currently executed (i.e. the text after the `Scenario:` prefix)
-```
-Executing scenario: Testing calculator addition
-```
+    ```
+    Executing scenario: Testing calculator addition
+    ```
 
 0. (10%) Implement support for the addition scenario:
-```
-Scenario: Testing calculator addition
-    When I add 4 to 5
-    Then I expect the value 9
-```
+    ```
+    Scenario: Testing calculator addition
+        When I add 4 to 5
+        Then I expect the value 9
+    ```
     and display a message stating that the test passed successfully.
-```
-Executing [Testing calculator addition]
--> When I add 4 to 5
--> Then I expect the value 9 (success)
-Scenario [Testing calculator addition] ended successfully
-```
+    ```
+    Executing [Testing calculator addition]
+    -> When I add 4 to 5
+    -> Then I expect the value 9 (success)
+    Scenario [Testing calculator addition] ended successfully
+    ```
 
 0. (10%) Implement support for the subtraction, multiplication and division scenario:
-```
-Scenario: Testing calculator sub, mult and div
-  When I add 4 to 5
-  Then I expect the value 9
-  When I multiply -6 by 20
-  Then I expect the value -120
-  When I subtract 1.5 to 3
-  Then I expect the value  1.5
-  When I divide 100 by 200
-  Then I expect the value 0.5
-```
+    ```
+    Scenario: Testing calculator sub, mult and div
+      When I add 4 to 5
+      Then I expect the value 9
+      When I multiply -6 by 20
+      Then I expect the value -120
+      When I subtract 1.5 to 3
+      Then I expect the value  1.5
+      When I divide 100 by 200
+      Then I expect the value 0.5
+    ```
 
     and display a message stating that the test passed successfully.
-```
-Executing [Testing calculator sub, mult and div]
--> When I add 4 to 5
--> Then I expect the value 9 (success)
--> When I multiply -6 by 20
--> Then I expect the value -120 (success)
--> When I subtract 1.5 to 3
--> Then I expect the value  1.5 (success)
--> When I divide 100 by 200
--> Then I expect the value 0.5 (success)
-Scenario [Testing calculator sub, mult and div] ended successfully
+    ```
+    Executing [Testing calculator sub, mult and div]
+    -> When I add 4 to 5
+    -> Then I expect the value 9 (success)
+    -> When I multiply -6 by 20
+    -> Then I expect the value -120 (success)
+    -> When I subtract 1.5 to 3
+    -> Then I expect the value  1.5 (success)
+    -> When I divide 100 by 200
+    -> Then I expect the value 0.5 (success)
+    Scenario [Testing calculator sub, mult and div] ended successfully
 ```
 
 0. (10%) Implement support for constants
-```
-Scenario: Testing operation with constants
-  Given constants:
-    | name  |  value  |
-    | pi    | 3.14159 |
-    | e     | 2.71828 |
-  When I subtract $.e to $.pi
-  Then I expect the value 0.42331
-```
+    ```
+    Scenario: Testing operation with constants
+      Given constants:
+        | name  |  value  |
+        | pi    | 3.14159 |
+        | e     | 2.71828 |
+      When I subtract $.e to $.pi
+      Then I expect the value 0.42331
+    ```
 
     and display
-```
-Executing [Testing operation with constants]
--> When I subtract $.e to $.pi
--> Then I expect the value 0.42331 (success)
-Scenario [Testing operation with constants] ended successfully
-```
+    ```
+    Executing [Testing operation with constants]
+    -> When I subtract $.e to $.pi
+    -> Then I expect the value 0.42331 (success)
+    Scenario [Testing operation with constants] ended successfully
+    ```
 
 0. (10%) Detect error cases:
-```
-Scenario: Testing operation with constants
-  Given constants:
-    | name  |  value  |
-    | pi    | 3.14159 |
-    | e     | 2.71828 |
-  When I subtract $.e to $.pi
-  Then I expect the value 999.42331
-```
+    ```
+    Scenario: Testing operation with constants
+      Given constants:
+        | name  |  value  |
+        | pi    | 3.14159 |
+        | e     | 2.71828 |
+      When I subtract $.e to $.pi
+      Then I expect the value 999.42331
+    ```
     and display a message stating the step that failed with the faulty value
-```
-Executing [Testing operation with constants]
--> When I subtract $.e to $.pi
--> Then I expect the value 999.42331 but got 0.42331 (failed)
-Scenario [Testing operation with constants] failed
-```
+    ```
+    Executing [Testing operation with constants]
+    -> When I subtract $.e to $.pi
+    -> Then I expect the value 999.42331 but got 0.42331 (failed)
+    Scenario [Testing operation with constants] failed
+    ```
 
 0. (50%) Make sure your code is robust:
     - does it support any type of indentation and no indentation?
