@@ -18,7 +18,7 @@ Pending approval means that it's still unknown if it is going to be open-sourced
 ### Technical
 
 - **Artificial Intelligence** *(soon)*
-- **Machine Learning** *(soon)*
+- [**Machine Learning**][ml]
 - [**Theoritical Computer Science**][tcs]
 - [**Web**][web]
 - **XP** Due to the format of the competition, it'll stay private
@@ -44,7 +44,7 @@ Pending approval means that it's still unknown if it is going to be open-sourced
 
 ---
 
-*v0.0.4*
+*v0.0.5*
 
 [csgames]: http://csgames.org/
 [web]: ./web
@@ -52,3 +52,4 @@ Pending approval means that it's still unknown if it is going to be open-sourced
 [tcs]: ./tcs
 [parallel]: https://github.com/faouellet/CSGames2015-Parallelism
 [db]: https://github.com/ebelair/CSG15-DB
+[ml]: https://github.com/pikaille/MachineLearningChallenge
